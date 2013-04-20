@@ -1,0 +1,43 @@
+{
+    "name": "components/revealjs",
+    "description": "The HTML Presentation Framework",
+    "type": "component",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hakim El Hattab",
+            "homepage": "http://hakim.se/"
+        }
+    ],
+    "require": {
+        "robloach/component-installer": "*"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "js/reveal.js",
+                "plugin/highlight/highlight.js",
+                "plugin/markdown/showdown.js",
+                "plugin/markdown/markdown.js"
+            ],
+            "styles": [
+                "css/reveal.css"
+            ],
+            "files": [
+                "css/theme/default.css",
+                "css/theme/beige.css",
+                "css/theme/moon.css",
+                "css/theme/night.css",
+                "css/theme/serif.css",
+                "css/theme/simple.css",
+                "css/theme/sky.css",
+                "css/theme/solarized.css",
+                "css/reveal.min.css",
+                "js/reveal.min.js"
+            ],
+            "shim": {
+                "exports": "Reveal"
+            }
+        }
+    }
+}

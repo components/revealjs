@@ -1,0 +1,26 @@
+{
+  "name": "revealjs",
+  "repo": "components/revealjs",
+  "description": "Reveal.js HTML Presentation Framework",
+  "version": "2.3.0",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "js/reveal.js"
+  ],
+  "styles": [
+    "css/reveal.css"
+  ],
+  "files": [
+    "css/theme/default.css",
+    "css/theme/beige.css",
+    "css/theme/moon.css",
+    "css/theme/night.css",
+    "css/theme/serif.css",
+    "css/theme/simple.css",
+    "css/theme/sky.css",
+    "css/theme/solarized.css"
+  ]
+}
