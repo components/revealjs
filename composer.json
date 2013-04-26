@@ -1,6 +1,7 @@
 {
     "name": "components/revealjs",
     "description": "The HTML Presentation Framework",
+    "homepage": "http://lab.hakim.se/reveal-js/",
     "type": "component",
     "license": "MIT",
     "authors": [
@@ -9,31 +10,28 @@
             "homepage": "http://hakim.se/"
         }
     ],
+    "support": {
+        "issues": "https://github.com/hakimel/reveal.js/issues",
+        "wiki": "https://github.com/hakimel/reveal.js/wiki",
+        "source": "https://github.com/hakimel/reveal.js"
+    },
     "require": {
         "robloach/component-installer": "*"
     },
     "extra": {
         "component": {
             "scripts": [
-                "js/reveal.js",
-                "plugin/highlight/highlight.js",
-                "plugin/markdown/showdown.js",
-                "plugin/markdown/markdown.js"
+                "js/reveal.js"
             ],
             "styles": [
                 "css/reveal.css"
             ],
             "files": [
-                "css/theme/default.css",
-                "css/theme/beige.css",
-                "css/theme/moon.css",
-                "css/theme/night.css",
-                "css/theme/serif.css",
-                "css/theme/simple.css",
-                "css/theme/sky.css",
-                "css/theme/solarized.css",
                 "css/reveal.min.css",
                 "js/reveal.min.js"
+                "css/theme/*.css",
+                "css/print/*.css",
+                "plugin/*/*"
             ],
             "shim": {
                 "exports": "Reveal"
