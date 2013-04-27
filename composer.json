@@ -28,7 +28,7 @@
             ],
             "files": [
                 "css/reveal.min.css",
-                "js/reveal.min.js"
+                "js/reveal.min.js",
                 "css/theme/*.css",
                 "css/print/*.css",
                 "plugin/*/*"
