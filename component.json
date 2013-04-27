@@ -14,6 +14,8 @@
     "css/reveal.css"
   ],
   "files": [
+    "css/reveal.min.css",
+    "css/print/paper.css",
     "css/theme/default.css",
     "css/theme/beige.css",
     "css/theme/moon.css",
