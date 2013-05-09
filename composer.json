@@ -31,7 +31,8 @@
                 "js/reveal.min.js",
                 "css/theme/*.css",
                 "css/print/*.css",
-                "plugin/*/*"
+                "plugin/**",
+                "lib/**"
             ],
             "shim": {
                 "exports": "Reveal"
