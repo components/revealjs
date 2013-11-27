@@ -2,7 +2,7 @@
   "name": "revealjs",
   "repo": "components/revealjs",
   "description": "Reveal.js HTML Presentation Framework",
-  "version": "2.3.0",
+  "version": "2.5.0",
   "license": "MIT",
   "scripts": [
     "js/reveal.js"
@@ -24,8 +24,15 @@
     "css/theme/solarized.css",
     "js/reveal.min.js",
     "plugin/highlight/highlight.js",
+    "plugin/leap/leap.js",
     "plugin/markdown/markdown.js",
     "plugin/markdown/showdown.js",
+    "plugin/markdown/marked.js",
+    "plugin/math/math.js",
+    "plugin/multiplex/client.js",
+    "plugin/multiplex/index.js",
+    "plugin/multiplex/master.js",
+    "plugin/notes/notes.js",
     "plugin/print-pdf/print-pdf.js",
     "plugin/search/search.js",
     "plugin/zoom-js/zoom.js"

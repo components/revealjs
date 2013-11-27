@@ -1,4 +1,4 @@
-VERSION=v2.3
+VERSION=2.5.0
 
 default: revealjs
 		@cp -rf revealjs/css/* css
