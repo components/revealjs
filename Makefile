@@ -1,9 +1,10 @@
-VERSION=2.5.0
+VERSION=2.6.1
 
 default: revealjs
 		@cp -rf revealjs/css/* css
 		@cp -rf revealjs/js/* js
 		@cp -rf revealjs/plugin/* plugin
+		@cp -rf revealjs/lib/* lib
 		@du -bh js/reveal.*
 		@du -bh css/reveal.*
 

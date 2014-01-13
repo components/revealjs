@@ -1,7 +1,7 @@
 Reveal.js
 =========
 
-Shim repository for [Reveal.js](http://lab.hakim.se/reveal-js/).
+Shim repository for [Reveal.js](http://github.com/hakimel/reveal.js).
 
 Package Managers
 ----------------
