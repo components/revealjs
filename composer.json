@@ -15,9 +15,6 @@
         "wiki": "https://github.com/hakimel/reveal.js/wiki",
         "source": "https://github.com/hakimel/reveal.js"
     },
-    "require": {
-        "robloach/component-installer": "*"
-    },
     "extra": {
         "component": {
             "scripts": [
